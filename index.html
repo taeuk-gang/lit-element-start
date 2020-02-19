@@ -14,6 +14,7 @@
       waitFor(cb){ addEventListener('WebComponentsReady', cb) }
     } 
     WebComponents.waitFor(async () => { 
+      console.log(`test`)
       import('./src/start-lit-element.js');
     });
   </script>
